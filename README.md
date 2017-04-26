@@ -21,3 +21,12 @@ graph TD;
     B-->D;  
     C-->D;  
 \`\`\`
+
+## Contributions
+
+This software also uses portions of the following projects:
+
+| Project             | Copyright                          |
+| ------------------- | ---------------------------------- |
+| nodebb-plugin-katex | Copyright (c) 2015 Benjamin Abel.  |
+| mermaid             | Copyright (c) 2014 Knut Sveidqvist |
