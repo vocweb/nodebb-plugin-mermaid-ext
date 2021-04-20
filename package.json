@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-mermaid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Parse Mermaid charts inside NodeBB",
   "main": "./lib/index.js",
   "repository": {
@@ -16,19 +16,19 @@
     "gantt",
     "uml"
   ],
-  "author": "Sten Feldman <exile@chamber.ee>",
+  "author": "Sten Feldman <exile@chamber.ee> (https://sten.pw/)",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/exsilium/nodebb-plugin-mermaid/issues"
   },
   "homepage": "https://github.com/exsilium/nodebb-plugin-mermaid",
   "dependencies": {
-    "nodebb-plugin-markdown": "^7.1.0"
+    "nodebb-plugin-markdown": "^8.12.7"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">= 12.22.1"
   },
   "nbbpm": {
-    "compatibility": "^1.4.0"
+    "compatibility": "^1.16.2"
   }
 }
