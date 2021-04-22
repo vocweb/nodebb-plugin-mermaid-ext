@@ -1,8 +1,10 @@
+![NodeBB Compatibility](https://packages.nodebb.org/api/v1/plugins/nodebb-plugin-mermaid/compatibility.png)
+
 # NodeBB Mermaid parser
 
 A plugin to parse mermaid codeblocks and render them with [Mermaid](https://github.com/knsv/mermaid).
 
-Packaged mermaid version: https://github.com/knsv/mermaid/commit/189758cca41c2535fef0758a178bce6c9be7a4c8
+Packaged mermaid version: https://github.com/knsv/mermaid/commit/2fd7992b0e9edb9252ae4d34eba3f26577e36633
 
 ## Installation 
 
