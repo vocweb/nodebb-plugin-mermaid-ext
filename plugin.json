@@ -5,13 +5,14 @@
   "url": "https://github.com/exsilum/nodebb-plugin-mermaid",
   "main": "./lib/index.js",
   "scripts": [
-    "public/js/mermaid.js",
     "public/js/client.js",
     "public/js/debug.js"
   ],
   "modules": {
+    "mermaid.js": "node_modules/mermaid/dist/mermaid.js",
     "../admin/plugins/mermaid.js": "public/js/admin.js" 
   },
+  "settingsRoute": "/admin/plugins/mermaid",
   "templates": "./public/templates",
   "hooks": [
     { "hook": "static:app.load", "method": "onLoad" },
