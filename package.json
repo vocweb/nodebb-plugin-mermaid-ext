@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-mermaid",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Parse Mermaid charts inside NodeBB",
   "main": "./lib/index.js",
   "repository": {
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/exsilium/nodebb-plugin-mermaid",
   "dependencies": {
-    "nodebb-plugin-markdown": "^8.12.7"
+    "mermaid": "^9.1.1"
   },
   "engines": {
     "node": ">= 12.22.1"
   },
   "nbbpm": {
-    "compatibility": "^1.16.2"
+    "compatibility": "^2.0.0"
   }
 }

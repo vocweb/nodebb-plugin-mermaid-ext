@@ -1,4 +1,5 @@
 "use strict";
+import mermaid from 'mermaid';
 /* global document $ config */
 
 $(document).ready(function() {

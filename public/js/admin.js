@@ -1,5 +1,5 @@
 /* globals define, socket, app, $ */
-define('admin/plugins/mermaid', ['settings'], function(Settings) {
+define('admin/plugins/mermaid', ['settings', 'alerts'], function(Settings, alerts) {
   'use strict';
 
   var ACP = {};
@@ -9,7 +9,7 @@ define('admin/plugins/mermaid', ['settings'], function(Settings) {
 
     $('#save').on('click', function() {
       Settings.save('mermaid', $('.mermaid-settings'), function() {
-        app.alert({
+        alerts.alert({
           type: 'success',
           alert_id: 'mermaid-saved',
           title: 'Settings Saved',

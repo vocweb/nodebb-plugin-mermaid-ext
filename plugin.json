@@ -9,9 +9,9 @@
     "public/js/client.js",
     "public/js/debug.js"
   ],
-  "acpScripts": [
-    "public/js/admin.js"
-  ],
+  "modules": {
+    "../admin/plugins/mermaid.js": "public/js/admin.js" 
+  },
   "templates": "./public/templates",
   "hooks": [
     { "hook": "static:app.load", "method": "onLoad" },
