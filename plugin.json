@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-mermaid",
-  "name": "Mermaid Parser",
-  "description": "Mermaid charts in NodeBB",
-  "url": "https://github.com/exsilum/nodebb-plugin-mermaid",
+  "id": "nodebb-plugin-mermaid-ext",
+  "name": "Mermaid Parser Ext",
+  "description": "Mermaid charts Ext in NodeBB",
+  "url": "https://github.com/vocweb/nodebb-plugin-mermaid-ext",
   "main": "./lib/index.js",
   "scripts": [
     "public/js/client.js",
