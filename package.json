@@ -1,16 +1,17 @@
 {
-  "name": "nodebb-plugin-mermaid",
-  "version": "0.3.1",
+  "name": "nodebb-plugin-mermaid-ext",
+  "version": "0.1.0",
   "description": "Parse Mermaid charts inside NodeBB",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exsilium/nodebb-plugin-mermaid.git"
+    "url": "https://github.com/vocweb/nodebb-plugin-mermaid-ext.git"
   },
   "keywords": [
     "nodebb",
     "plugin",
     "mermaid",
+    "extend",
     "graph",
     "diagram",
     "gantt",
@@ -23,12 +24,12 @@
   },
   "homepage": "https://github.com/exsilium/nodebb-plugin-mermaid",
   "dependencies": {
-    "mermaid": "^9.1.1"
+    "mermaid": "^11.12.0"
   },
   "engines": {
-    "node": ">= 12.22.1"
+    "node": ">= 22.18.0"
   },
   "nbbpm": {
-    "compatibility": "^2.0.0"
+    "compatibility": "^4.5.1"
   }
 }
