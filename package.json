@@ -27,7 +27,7 @@
     "mermaid": "^11.12.0"
   },
   "engines": {
-    "node": ">= 22.18.0"
+    "node": ">= 18.20.8"
   },
   "nbbpm": {
     "compatibility": "^4.5.1"
