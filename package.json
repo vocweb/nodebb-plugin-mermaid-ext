@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-mermaid-ext",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse Mermaid charts inside NodeBB",
   "main": "./lib/index.js",
   "repository": {
