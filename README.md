@@ -1,8 +1,8 @@
-# NodeBB Mermaid parser
+# NodeBB Mermaid Ext parser
 
 A plugin to parse mermaid codeblocks and render them with [Mermaid](https://github.com/knsv/mermaid). Now updated to support NodeBB v4.5.1+
 
-Packaged mermaid version: `^11.12.0`
+Packaged mermaid version: `^9.4.3`
 
 ## Installation 
 
